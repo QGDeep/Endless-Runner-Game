@@ -1,5 +1,6 @@
 /* Spike used to create a blueprint that was
-   then used in the levels.
+   then used in the levels. 
+   Damages the player
    */
 #include "Spikes.h"
 

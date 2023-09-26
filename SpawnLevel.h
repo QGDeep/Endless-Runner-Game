@@ -26,6 +26,7 @@ public:
 
 public:
 
+	// function for spawning levels
 	UFUNCTION()
 		void SpawnLevel(bool IsFirst);
 
@@ -37,6 +38,7 @@ protected:
 
 	APawn* Player;
 
+	// create level subclasses and array for the levels
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<ABaseLevel> Level1;
 

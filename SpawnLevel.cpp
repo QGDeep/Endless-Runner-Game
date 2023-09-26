@@ -36,9 +36,11 @@ void ASpawnLevel::Tick(float DeltaTime)
 
 void ASpawnLevel::SpawnLevel(bool IsFirst)
 {
+	// set platform level location and rotation
 	SpawnLocation = FVector(0.0f, 1000.0f, 0.0f);
 	SpawnRotation = FRotator(0, 90, 0);
 
+	// check if its the last level in the list
 	if (!IsFirst) {
 		ABaseLevel* LastLevel = LevelList.Last();
 		SpawnLocation = LastLevel->GetSpwanLocation()->GetComponentTransform().GetTranslation();
