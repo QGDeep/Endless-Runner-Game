@@ -5,3 +5,5 @@ Assets Used -
 Unreal Engine 5 default charcater and environment models.
 
 Made in Unreal Engine 5.2.1
+
+Link to itch.io project page provided.
